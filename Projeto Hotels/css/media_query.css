@@ -1,0 +1,119 @@
+/****** FORMATAÇÃO DAS MEDIA QUERYES ******/
+
+
+
+
+
+@media screen and (min-width: 70em) {
+	.top-content {
+		background-image: url(../images/bg_topo_1600x1374.jpg);
+		padding: 19em 10em 10em;
+		background-size: cover;
+		background-position: center top;
+	}
+	
+	.col-1_4 {
+		width: 23%;
+		margin: 1%;
+	}
+	
+	.col-1_2{
+		width: 48%;
+		margin: 1%;
+		float: left;
+	}
+	
+	.main-content-article .button {
+		float: none;
+	} 
+
+}
+
+/* 1000px largura desejada /  16px do font-size padrão = 1000/16 =  62.5em*/
+@media screen and (min-width: 62.5em) {
+	.top-content {
+		background-color: #521a66;
+		background-image: url(../images/bg_topo_1198x670.jpg);
+		background-position: center top;
+		height: 20em;
+		padding-top: 17em;
+	}
+}
+
+
+
+
+/* 16px fonte padrão / 780px / 16px = 48.75em */
+@media screen and (min-width: 48.75em) {
+	
+	/* FORMATAÇÃO DO HEADER */
+	
+	.top-header {
+		
+	}
+	
+	.top-header-logo {
+		float: left;
+	}
+	
+	.top-nav {
+		background-color: transparent;
+		float: right;
+		margin-top: 1.2em;
+	}
+	
+	.top-nav ul{
+		margin: 0;
+		padding: 
+	}
+	.top-nav li {
+		display: inline-block;
+		
+	}
+	
+	.top-nav a {
+		color: #713a84;
+	}
+	
+	.top-nav a:hover {
+		background-color: #e7d9fc;
+	}
+	
+	.clearfix:after {
+		content: ' ';
+		display: block;
+		clear: both;
+	}
+	
+	/* FORMATAÇÃO DA SECTION 1 */
+	.top-content {	
+		background-color: #521a66;
+	}
+	.top-content-title, .top-content-subtitle {
+		color: #fff;
+	}
+	/* FORMATAÇÃO DA SECTION MIDDLE CONTENT */
+	.row:after {
+		content: ' ';
+		display: block;
+		clear: both;
+	}
+	.col-1_4 {
+		width: 44%;
+		margin: 3%;
+		float: left;
+	}
+	.icon-play {
+	display: block;
+}
+	
+	/* FORMATAÇÃO DO SECTION MAIN CONTENT */
+	
+	.main-content-article .button {
+		float: right;
+	}
+
+}
+
+
+

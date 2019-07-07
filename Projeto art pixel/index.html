@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <h1>Lab: Pixel Art Maker</h1>
+
+    <h2>Escolha o Tamanho do seu Grid</h2>
+    <form id="sizePicker">
+        Altura do Grid:
+        <input type="number" id="inputHeight" name="height" min="1" max="100" value="10">
+        Largura do Grid :
+        <input type="number" id="inputWeight" name="width" min="1" max="100" value="10">
+        <input type="submit">
+    </form>
+
+    <h2>Escolha uma cor</h2>
+    <input type="color" id="colorPicker">
+
+    <h2>Design Canvas</h2>
+    <table id="pixelCanvas"></table>
+	
+	<footer>
+		<p>Desenvolvido por Henrique Braga</p>
+	</footer>
+	<script
+		src="http://code.jquery.com/jquery-3.3.1.js"
+		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+		crossorigin="anonymous"></script>
+	<script src="designs.js"></script>
+	
+</body>
+</html>
